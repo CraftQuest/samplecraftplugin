@@ -1,0 +1,49 @@
+{
+    "name": "craftquest/sample-craft-plugin",
+    "description": "A sample Craft plugin for CraftQuest.io",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "sample craft plugin"
+    ],
+    "support": {
+        "docs": "https://github.com/CraftQuest/sample-craft-plugin/blob/master/README.md",
+        "issues": "https://github.com/CraftQuest/sample-craft-plugin/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Irelan",
+            "homepage": "https://craftquest.io"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "require-dev": {
+      "craftcms/cms": "^3.2.0",
+      "codeception/codeception": "^3.0",
+      "vlucas/phpdotenv": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "craftquest\\samplecraftplugin\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Sample Craft Plugin",
+        "handle": "sample-craft-plugin",
+        "developer": "Ryan Irelan",
+        "developerUrl": "https://craftquest.io",
+        "documentationUrl": "https://github.com/CraftQuest/sample-craft-plugin/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/CraftQuest/sample-craft-plugin/master/CHANGELOG.md",
+        "components": {
+            "sampleCraftPluginService": "craftquest\\samplecraftplugin\\services\\SampleCraftPluginService"
+        },
+        "class": "craftquest\\samplecraftplugin\\SampleCraftPlugin"
+    }
+}
