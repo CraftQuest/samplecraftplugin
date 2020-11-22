@@ -24,7 +24,7 @@ To install the plugin, follow these instructions.
 
 ## Sample Craft Plugin Overview
 
--Insert text here-
+This plugin does nothing! (yet)
 
 ## Configuring Sample Craft Plugin
 
